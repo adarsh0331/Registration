@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(violet, lime);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.a {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+label {
+	font-size: 50px;
+}
+</style>
+</head>
+<body>
+	<center>
+		<div>
+			<form action="Login">
+				<label class="a">Login</label> <input class="a"
+					placeholder="Enter your Email" name="email"> <br> <input
+					class="a" placeholder="Enter your password" name="password">
+				<br> <a class="a" href="RegistrationForm.html"> Create New
+					Account</a> <a class="a" href="ForgetPassword.html">Forgot
+					password?</a> <br> <input class="a" id="a" type="submit"
+					value="Login">
+			</form>
+		</div>
+	</center>
+</body>
+</html>
