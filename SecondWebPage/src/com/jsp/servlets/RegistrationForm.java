@@ -55,7 +55,7 @@ public class RegistrationForm  extends GenericServlet
 			
 			if (num>0) {
 				
-			RequestDispatcher dispatcher=	req.getRequestDispatcher("Login.html");
+			RequestDispatcher dispatcher=	req.getRequestDispatcher("index.html");
 			dispatcher.include(req, resp);
 				
 			} else {
